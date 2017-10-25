@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+
+h1{
+	color:#DCDCDC; 
+	font-family:calibri; 
+	text-align:center; 
+	background:#5F9EA0;
+}
+
+#tabela{
+	background:red;
+}

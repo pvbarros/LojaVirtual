@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Loja Virtual - Gestão de Produto Comprado</title>
+</head>
+<body>
+
+	<h1 style="color:#FFFFFF; font-family:calibri; text-align:center; background:#5F9EA0;">Loja Virtual</h1><hr />
+	<h3 style="color:#696969; font-family:calibri; text-align:center; background:#B0E0E6;">Gestão de Produto Comprado</h3>
+	
+	<form method="post" action="./CtrProdutoComprado">
+		<fieldset style="width: 400px; position:absolute;">
+			<legend style="font-family:helvetica; font-size: 16px;">Gestão de Produto Comprado</legend>
+				<table>
+					<tr>
+						<td colspan="1"><label for="idClienteProdComprado" style="font-family:helvetica; font-size: 14px;">ID Cliente:</label> </td>
+						<td colspan="1"><input type="text" name="idClienteProdComprado" /></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="idProdComprado" style="font-family:helvetica; font-size: 14px;">ID Produto:</label> </td>
+						<td colspan="1"><input type="text" name="idProdComprado" /></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="qtdProdComprado" style="font-family:helvetica; font-size: 14px;">Quantidade:</label> </td>
+						<td colspan="1"><input type="text" name="qtdProdComprado" /></td>					
+					</tr>
+					<tr>
+						<td colspan="1"><label for="custoUnidadeProdComprado" style="font-family:helvetica; font-size: 14px;">Custo unitário:</label> </td>
+						<td colspan="1"><input type="text" name="custoUnidadeProdComprado" /></td>					
+					</tr>					
+					<tr>
+						<td colspan="1"><label for="custoTotalProdComprado" style="font-family:helvetica; font-size: 14px;">Custo total:</label> </td>
+						<td colspan="1"><input type="text" name="custoTotalProdComprado" /></td>					
+					</tr>
+					<tr>
+						<td colspan="1"><label for="freteProdComprado" style="font-family:helvetica; font-size: 14px;">Frete:</label> </td>
+						<td colspan="1"><input type="text" name="freteProdComprado" /></td>					
+					</tr>				
+					<tr>
+						<td colspan="1"><label for="impostosProdComprado" style="font-family:helvetica; font-size: 14px;">Impostos:</label> </td>
+						<td colspan="1"><input type="text" name="impostosProdComprado" /></td>					
+					</tr>
+					<tr>
+						<td colspan="1"><label for="estadoDestinoProdComprado" style="font-family:helvetica; font-size: 14px;">Estado destino: </label></td>
+						<td colspan="1">
+							<select style="width: 173px;">
+								<option value="mg">MG</option>
+								<option value="rj">RJ</option>
+								<option value="sp">SP</option>
+							</select>
+						</td>
+					</tr>					
+					<tr>
+						<td colspan="1"><label for="precoFinalProdComprado" style="font-family:helvetica; font-size: 14px;">Preço Final:</label></td>
+						<td colspan="1"><input type="text" name="precoFinalProdComprado" /></td>					
+					</tr>									
+				</table>
+					
+				<table border="0">
+					<tr>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Inserir" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Atualizar" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Remover" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Pesquisar" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Voltar" /></td>
+					</tr>
+				</table>
+		
+		</fieldset>
+	</form>
+</body>
+</html>

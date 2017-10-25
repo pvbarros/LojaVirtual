@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Loja Virtual - Gestão de Categoria</title>
+</head>
+<body>
+
+	<h1 style="color:#FFFFFF; font-family:calibri; text-align:center; background:#5F9EA0;">Loja Virtual</h1><hr />
+	<h3 style="color:#696969; font-family:calibri; text-align:center; background:#B0E0E6;">Gestão de Categoria</h3>
+	
+	<form method="post" action="./CtrCategoria">
+		<fieldset style="width: 400px;">
+			<legend style="font-family:helvetica; font-size: 16px;">Gestão de Categoria</legend>
+				<table border="0">
+					<tr>
+						<td colspan="1"><label for="idCat" style="font-family:helvetica; font-size: 14px;">ID:</label> </td>
+						<td colspan="1"><input type="text" name="idProdEstoque"/></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="nomeCat" style="font-family:helvetica; font-size: 14px;">Nome:</label> </td>
+						<td colspan="1"><input type="text" name="qtdProdEstoque" /></td>
+					</tr>
+				</table>		
+				<table border="0">
+					<tr>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Inserir" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Atualizar" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Remover" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Pesquisar" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Voltar" /></td>
+					</tr>
+				</table>
+		</fieldset>
+	</form>
+</body>
+</html>

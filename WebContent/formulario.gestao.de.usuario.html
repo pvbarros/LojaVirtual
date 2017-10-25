@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Loja Virtual - Gestão de Usuário</title>
+</head>
+<body>
+
+	<h1 style="color:#FFFFFF; font-family:calibri; text-align:center; background:#5F9EA0;">Loja Virtual</h1><hr />
+	<h3 style="color:#696969; font-family:calibri; text-align:center; background:#B0E0E6;">Gestão de Usuário</h3>
+	
+	<form method="post" action="./CtrUsuario">
+		<fieldset style="width: 300px;">
+			<legend style="font-family:helvetica; font-size: 16px;">Gestão de Usuário</legend>
+				<table border="0">
+					<tr>
+						<td colspan="1"><label for="idUsuario" style="font-family:helvetica; font-size: 14px;">ID:</label> </td>
+						<td colspan="1"><input type="text" name="idUsuario" /></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="nomeUsuario" style="font-family:helvetica; font-size: 14px;">Nome:</label> </td>
+						<td colspan="1"><input type="text" name="nomeUsuario" /></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="userIdUsuario" style="font-family:helvetica; font-size: 14px;">Usuário: </label> </td>
+						<td colspan="1"><input type="text" name="userIdUsuario" /></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="senhaUsuario" style="font-family:helvetica; font-size: 14px;">Senha: </label> </td>
+						<td colspan="1"><input type="password" name="senhaUsuario" /></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="emailUsuario" style="font-family:helvetica; font-size: 14px;">E-mail: </label> </td>
+						<td colspan="1"><input type="text" name="emailUsuario" /></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="telComUsuario" style="font-family:helvetica; font-size: 14px;">Tel. Comercial:</label></td>
+						<td colspan="1"><input type="text" name="telComUsuario"/></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="telResUsuario" style="font-family:helvetica; font-size: 14px;">Tel. Residencial:</label></td>
+						<td colspan="1"><input type="text" name="telResUsuario" /></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="telCelUsuario" style="font-family:helvetica; font-size: 14px;">Tel. Celular:</label></td>	
+						<td colspan="1"><input type="text" name="telCelUsuario" /></td>
+					</tr>
+					<tr>
+						<td colspan="1"><label for="produtosCompradosUsuario" style="font-family:helvetica; font-size: 14px;">Produtos Comprados: 
+										</label> </td>
+						<td colspan="1"><input type="text" name="produtosCompradosUsuario" /></td>
+					</tr>
+				</table>
+					
+				<table border="0">
+					<tr>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Inserir" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Atualizar" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Remover" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Pesquisar" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Voltar" /></td>
+					</tr>
+				</table>
+		</fieldset>
+	</form>
+</body>
+</html>

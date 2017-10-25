@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Loja Virtual - Gestão de Produtos</title>
+</head>
+<body>
+
+	<h1 style="color:#FFFFFF; font-family:calibri; text-align:center; background:#5F9EA0;">Loja Virtual</h1><hr />
+	<h3 style="color:#696969; font-family:calibri; text-align:center; background:#B0E0E6;">Gestão de Produtos</h3>
+
+	<form method="post" action="./CtrProduto">
+	<fieldset style="width: 400px;">
+		<legend style="font-family:helvetica; font-size: 16px;">Gestão do Produto</legend>
+		<table>
+			<tr>
+				<td colspan="1"><label for="idForm" style="font-family:helvetica; font-size: 14px;">ID: </label></td>
+				<td colspan="1"><input type="text" name="idForm"/></td>
+			</tr>
+			<tr>
+				<td colspan="1"><label for="nomeForm" style="font-family:helvetica; font-size: 14px;">Nome: </label></td>
+				<td colspan="1"><input type="text" name="nomeForm"/></td>
+			</tr>
+			<tr>
+				<td colspan="1"><label for="descricaoForm" style="font-family:helvetica; font-size: 14px;">Descrição: </label></td>
+				<td colspan="1"><textarea rows="14" cols="21" style="resize: none"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="1"><label for="fotoForm" style="font-family:helvetica; font-size: 14px;">Foto: </label></td>
+				<td colspan="1"><input type="image" name="fotoForm"/>
+								<button type="submit" name="carregar" style="font-size: 12px;">...Carregar</button> </td>
+			</tr>
+			<tr>
+				<td colspan="1"><label for="precoForm" style="font-family:helvetica; font-size: 14px;">Preço: </label></td>
+				<td colspan="1"><input type="text" name="precoForm"/></td>
+			</tr>
+			<tr>
+				<td colspan="1"><label for="unidMedidaForm" style="font-family:helvetica; font-size: 14px;">Unidade de medida: </label></td>
+				<td colspan="1">
+					<select style="width: 173px;">
+						<option value="kg">Kg</option>
+						<option value="metro">Metro</option>
+						<option value="litro">Litro</option>
+						<option value="cm">Centrimetro</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="1"><label for="medidaForm" style="font-family:helvetica; font-size: 14px;">Medida: </label></td>
+				<td colspan="1"><input type="text" name="medidaForm"/></td>
+			</tr>
+			<tr>
+				<td colspan="1"><label for="categoriaForm" style="font-family:helvetica; font-size: 14px;">Categoria: </label></td>
+				<td colspan="1"><input type="text" name="categoriaForm"/></td>
+			</tr>
+			<tr>
+				<td colspan="1"><label for="cidadeForm" style="font-family:helvetica; font-size: 14px;">Cidade: </label></td>
+				<td colspan="1"><input type="text" name="estadoForm"/></td>
+			</tr>
+			<tr>
+				<td colspan="1"><label for="estadoForm" style="font-family:helvetica; font-size: 14px;">Estado: </label></td>
+				<td colspan="1">
+					<select style="width: 173px;">
+						<option value="mg">MG</option>
+						<option value="rj">RJ</option>
+						<option value="sp">SP</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="1"><label for="paisOrigemForm" style="font-family:helvetica; font-size: 14px;">País de origem: </label></td>
+				<td colspan="1">
+					<select name="paisOrigemForm" style="width:173px;">
+						<option value="africaSul">África do Sul</option>
+						<option value="br">Brasil</option>
+						<option value="china">China</option>
+						<option value="dinamarca">Dinamarca</option>
+						<option value="eua">Estados Unidos</option>
+						<option value="fraca">França</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+				<table border="0">
+					<tr>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Inserir" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Atualizar" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Remover" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Pesquisar" /></td>
+						<td colspan=""><br /><input type="submit" name="cmd" value="Voltar" /></td>
+					</tr>
+				</table>
+		</fieldset>
+	</form>
+</body>
+</html>
